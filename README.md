@@ -1,23 +1,23 @@
-## Server Express
+# Server Express
 
-# Librerias
+## Librerias
 
-´´´
+```
 npm i express --save
 npm i hbs --save
-´´´
+```
 Ref:
 https://handlebarsjs.com/
 
 __dirname : Toma la ruta raiz donde esta desplegado el proyecto
 
-# Para estar al pendiente de los cambios sobre archivos de otra extencion
+## Para estar al pendiente de los cambios sobre archivos de otra extencion
 
-´´´
+```
 nodemon server -e js,hbs, html, css
-´´´
+```
 
-# Subir a Heroku
+## Subir a Heroku
  - Instalar Heroku
  - Configurar comando "start": "node server.js" en package.json
  - Crear .gitignore e indicar que no suba los node_modules
